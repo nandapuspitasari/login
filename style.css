@@ -1,0 +1,105 @@
+html,body{
+    height: 100%;
+    /* background-color: #222d32 !important; */
+    background-image: url(img/gambar4.jpg);
+}
+
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#000000;
+    
+}
+
+.login-form{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    background:rgba(0,0,0,0.1) ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+} 
+
+input[type="email"],
+input[type="password"],
+input[type="text"]{
+    background: white;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus{
+    outline: none;
+    border: none;
+    margin: 0;
+}
+
+.card-title{
+    font-weight: 900;
+    padding-top: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.mb-3{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .btn{
+    background: #000000 !important;
+    border-radius: 29px;
+
+} */
+
+.forget{
+   color: #1c72a3 !important;
+}
+
+.card-daftar{
+    font-weight: 900;
+    padding-top: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.daftar-form{
+    width: 400px;
+    height: 670px;
+    padding: 20px;
+    border-radius: 5px;
+    background:rgba(0,0,0,0.1) ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-home{
+    padding: 10px;
+    border-radius: 10px;
+    background:rgba(0,0,0,0.1) ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);   
+}
+
+.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgba(0,0,0,0.1) ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.nav-link{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
